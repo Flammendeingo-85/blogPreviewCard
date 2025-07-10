@@ -1,0 +1,35 @@
+:root {
+  /* COLORS */
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Gray-500: hsl(0, 0%, 42%);
+  --Gray-950: hsl(0, 0%, 7%);
+
+  /* FONT */
+  --ff-figtree: "Figtree", sans-serif;
+
+  --fw-500: 500;
+  --fw-700: 700;
+
+  --fs-p: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
