@@ -22,7 +22,38 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: var(--Yellow);
+}
 
+.card-container {
+  display: flex;
+  margin: 50px auto;
+  padding: 24px;
+  flex-direction: column;
+  width: 384px;
+  height: 522px;
+  background-color: var(--White);
+  border-radius: 20px;
+}
+
+.card-img img {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.yellow-bg {
+  margin-bottom: 20px;
+}
+
+.yellow-bg h5 {
+  display: inline;
+  padding: 4px 12px;
+  background-color: var(--Yellow);
+  border-radius: 4px;
+}
 
 
 
